@@ -1,0 +1,28 @@
+body {
+    background:url("https://gitee.com/li_da_ben_shi/MyPicture/raw/master/img/20210121193739.jpg");
+    background-opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position:50% 50%;
+    opacity: 1;
+   
+    //可选
+    +mobile(){
+      //background-position: 0% -20%;https://i.loli.net/2018/12/29/5c270a0523154.jpg
+      //https://i.loli.net/2018/12/29/5c270fc2bfcad.png
+      //background-image: url(https://ziyuan.lruihao.cn/images/bg_cell.png);
+      //background-size: cover;
+    }
+}
+
+// 修改主体透明度
+.main-inner {
+  background: #0F1003;
+  opacity: 0.8;
+}
+
+.header-inner{
+	opacity: 0.8;
+	z-index: 10;
+}
